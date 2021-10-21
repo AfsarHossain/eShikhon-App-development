@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Instruction"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Please enter a number between 1 to 10. If your number will match with the app's hidden number, you will win. So, Let's start "
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/userET"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:hint="Enter a number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:text="Quess Number"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/submit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+
+</LinearLayout>
